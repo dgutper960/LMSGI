@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="Actividad_5.2.xsl" type="text/xsl"?>
+<libreria>
+    <libro>
+    <titulo>Physics-based animation</titulo>
+    <autor>Kenny Erleben</autor>
+    <editor>Charles River Media</editor>
+    <isbn>978-1584503804</isbn>
+    <precio>50.06</precio>
+    </libro>
+    <libro>
+    <titulo>Principios de seguridad informatica para usuarios</titulo>
+    <autor>Carlos Garre</autor>
+    <editor>Dykinson</editor>
+    <isbn>978-84-9849-998-8</isbn>
+    <precio>13.00</precio>
+    </libro>
+    <libro>
+    <titulo>Dolores mentales son Dolores corporales</titulo>
+    <autor>Fernandez Ochoa Diego</autor>
+    <editor>Astral Ediciones</editor>
+    <isbn>369-48-5989-128-8</isbn>
+    <precio>9.00</precio>
+    </libro>
+    <libro>
+    <titulo>Trucos de la vida cotidiana</titulo>
+    <autor>Alejandra Esteva</autor>
+    <editor>Cosas Simples Edita</editor>
+    <isbn>321-84-9869-658-2</isbn>
+    <precio>4.50</precio>
+    </libro>
+    <libro>
+    <titulo>Ajedrez Para Especialistas</titulo>
+    <autor>Gambito De Dama</autor>
+    <editor>EDIT Cosas Frikys</editor>
+    <isbn>555-12-3265-789-1</isbn>
+    <precio>10.49</precio>
+    </libro>
+</libreria>
+
+<!-- 1. Insertar varios libros indicando coste inferiror a 10.5€ -->
+<!-- 2. Insertar el dato núm págs en cada libro contenido en el xml
+        Ej -> <numPaginas>150</numPaginas> -->
+<!-- 3. Cambiar en título de la tabla a "Mi biblioteca personal"  -->
+<!-- 4. Cambiar el color de la tabla en el fichero xsl   -->
+<!-- 5. Añadir uno columna más al final de la que se muestra el precio del libro -->
+<!-- 6. Añadir una columna más al princio en las que se muestre el ISBN -->
