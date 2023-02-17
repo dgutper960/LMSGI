@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet href="Actividad_5.1.xsl" type="text/xsl"?>
+<?xml-stylesheet href="Actividad_5.2.xsl" type="text/xsl"?>
 <libreria>
     <libro>
     <titulo>Physics-based animation</titulo>
@@ -42,11 +42,3 @@
     <precio>10.49</precio>
     </libro>
 </libreria>
-
-<!-- 1. Insertar varios libros indicando coste inferiror a 10.5€ -->
-<!-- 2. Insertar el dato núm págs en cada libro contenido en el xml
-        Ej -> <numPaginas>150</numPaginas> -->
-<!-- 3. Cambiar en título de la tabla a "Mi biblioteca personal"  -->
-<!-- 4. Cambiar el color de la tabla en el fichero xsl   -->
-<!-- 5. Añadir uno columna más al final de la que se muestra el precio del libro -->
-<!-- 6. Añadir una columna más al princio en las que se muestre el ISBN -->

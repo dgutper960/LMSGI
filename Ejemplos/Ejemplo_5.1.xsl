@@ -6,7 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <body>
     <h1>Mi biblioteca</h1>
         <table>
-        <tr bgcolor="#887788">
+            <tr bgcolor="#336633">
             <th>Titulo</th>
             <th>Autor</th>
         </tr>
