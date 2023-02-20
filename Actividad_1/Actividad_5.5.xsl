@@ -15,18 +15,21 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </tr>
         <xsl:for-each select="libreria/libro">
         <tr>
-            <xsl:choose>
-              <xsl:when test="numPaginas &gt; 150">
-                <td bgcolor="#ff0000">
-                  <xsl:value-of select="numPaginas"/>
-                </td>
-              </xsl:when>
-            </xsl:choose> 
             <td><xsl:value-of select="isbn"/></td>
             <td><xsl:value-of select="titulo"/></td>
             <td><xsl:value-of select="autor"/></td>
             <td><xsl:value-of select="precio"/></td>
-            <td><xsl:value-of select="numPaginas"/></td>
+            <xsl:choose>
+              <xsl:when test="numPaginas &gt; 150">
+                <td bgcolor="#ff0000 ">
+                  <xsl:value-of select="numPaginas"/>
+                </td>
+              </xsl:when>
+            <xsl:otherwise>
+              <td><xsl:value-of select="numPaginas"/>
+              </td>
+            </xsl:otherwise>
+          </xsl:choose>
         </tr>
         </xsl:for-each>
     </table>
