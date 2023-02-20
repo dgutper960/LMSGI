@@ -11,14 +11,22 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <th>Titulo</th>
             <th>Autor</th>
             <th>Precio</th>
+            <th>numPaginas</th>
         </tr>
-        <xsl:for-each select="libreria/libro[autor='Kenny Erleben']"> <!-- > Cuando no se quiera ese autor [autor!='Kenny Erleben'] -->
-        <xsl:sort select="precio"/> <!-- Etiqueta para ordenar SINTAXIS -> <xsl:sort select="title" order="ascending" data-type="text"/> -->
+        <xsl:for-each select="libreria/libro">
         <tr>
+            <xsl:choose>
+              <xsl:when test="numPaginas &gt; 150">
+                <td bgcolor="#ff0000">
+                  <xsl:value-of select="numPaginas"/>
+                </td>
+              </xsl:when>
+            </xsl:choose> 
             <td><xsl:value-of select="isbn"/></td>
             <td><xsl:value-of select="titulo"/></td>
             <td><xsl:value-of select="autor"/></td>
             <td><xsl:value-of select="precio"/></td>
+            <td><xsl:value-of select="numPaginas"/></td>
         </tr>
         </xsl:for-each>
     </table>
@@ -26,3 +34,5 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </html>
 </xsl:template>
 </xsl:stylesheet>
+
+<!-- Elemento numPag se muestra en rojo con + de 150pag -->
