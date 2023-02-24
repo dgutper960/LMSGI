@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cd_p1.xsl" type="text/xsl"?>
+<Lista_CDs>
+    <CD>
+        <titulo>Back in Black</titulo>
+        <artista>AC/DC</artista>
+        <title time="3:59">Have A Drink On Me</title>
+        <title time="5:18">Shoot to Thrill</title>
+        <title time="3:36">What Do You Do for Money Honey</title>
+        <title time="5:12">Hells Bells</title>
+        <title time="3:31">Givin the Dog a Bone</title>
+        <title time="4:12">Let Me Put My Love into You Ver</title>
+        <title time="4:17">Back in Black</title>
+        <title time="3:29">You Shook Me All Night Long </title>
+        <title time="4:01">Have a Drink on Me</title>
+        <title time="4:04">Shake a Leg</title>
+        <title time="4:12">Rock and Roll Ain't Noise Pollution</title>
+        <sello>Albert Production</sello>
+        <año_public>25-07-1980</año_public>
+    </CD>
+    <CD>
+        <titulo>Rumours</titulo>
+        <artista>Fleetwood Mac</artista>
+        <title time="3:31">Second Hand News</title>
+        <title time="4:33">Dreams</title>
+        <title time="3:11">Never Going Back Again</title>
+        <title time="3:36">Don't Stop</title>
+        <title time="3:56">Go Your Own Way</title>
+        <title time="4:24">Songbird</title>
+        <title time="4:13">The Chain</title>
+        <title time="4:19">You Make Loving Fun</title>
+        <title time="3:45">I Don't Want to Know</title>
+        <title time="4:51">Oh Daddy</title>
+        <title time="4:10">Gold Dust Woman</title>
+        <sello>Warner Bros. Records</sello>
+        <año_public>04-02-1977</año_public>
+    </CD>
+    <CD>
+        <titulo>Bad</titulo>
+        <artista>Michael Jackson</artista>
+        <title time="4:07">Bad</title>
+        <title time="4:18">The Way You Make Me Feel</title>
+        <title time="4:08">Speed Demon</title>
+        <title time="4:40">Liberian Girl</title>
+        <title time="4:11">Just Good Friends</title>
+        <title time="4:07">Another Part of Me</title>
+        <title time="5:19">Man in the Mirror</title>
+        <title time="4:01">I Just Can't Stop Loving You</title>
+        <title time="4:19">Dirty Diana</title>
+        <title time="6:24">Smooth Criminal</title>
+        <sello>Epic Records</sello>
+        <año_public>31-08-1987</año_public>
+    </CD>
+    <CD>
+        <titulo>Random Access Memories</titulo>
+        <artista>Daft Punk</artista>
+        <title time="4:34">Give Life Back to Music</title>
+        <title time="5:21">The Game of Love</title>
+        <title time="4:11">Giorgio by Moroder</title>
+        <title time="5:40">Within</title>
+        <title time="4:50">Instant Crush</title>
+        <title time="9:05">Lose Yourself to Dance</title>
+        <title time="6:07">Touch</title>
+        <title time="4:50">Get Lucky</title>
+        <title time="4:39">Beyond</title>
+        <title time="8:18">Motherboard</title>
+        <title time="4:50">Fragments of Time</title>
+        <title time="4:22">Doin' It Right</title>
+        <title time="6:21">Contact</title>
+        <sello>Columbia Records</sello>
+        <año_public>17-05-2013</año_public>
+    </CD>    
+    <CD>
+        <titulo>The Black Parade</titulo>
+        <artista>My Chemical Romance</artista>
+        <title time="5:11">The End.</title>
+        <title time="3:31">Dead!</title>
+        <title time="3:34">This Is How I Disappear</title>
+        <title time="3:44">The Sharpest Lives</title>
+        <title time="3:31">Welcome to the Black Parade</title>
+        <title time="2:43">I Don't Love You</title>
+        <title time="4:03">House of Wolves</title>
+        <title time="3:52">Cancer</title>
+        <title time="4:01">Mama</title>
+        <title time="3:27">Sleep</title>
+        <title time="1:57">Teenagers</title>
+        <title time="5:40">Disenchanted</title>
+        <title time="7:57">Famous Last Words</title>
+        <sello>Reprise Records</sello>
+        <año_public>23-10-2006</año_public>
+    </CD>
+    <CD>
+        <titulo>Ride the Lightning</titulo>
+        <artista>Metallica</artista>
+        <title time="6:36">Fight Fire with Fire</title>
+        <title time="7:50">Ride the Lightning</title>
+        <title time="6:30">For Whom the Bell Tolls</title>
+        <title time="7:26">Fade to Black</title>
+        <title time="4:09">Trapped Under Ice</title>
+        <title time="6:55">Escape</title>
+        <title time="8:18">Creeping Death</title>
+        <title time="6:36">The Call of Ktulu</title>
+        <sello>Megaforce Records</sello>
+        <año_public>27-07-1984</año_public>
+    </CD>
+    <CD>
+        <titulo>Nevermind</titulo>
+        <artista>Nirvana</artista>
+        <title time="5:01">Smells Like Teen Spirit</title>
+        <title time="2:36">In Bloom</title>
+        <title time="3:16">Come as You Are</title>
+        <title time="3:04">Breed</title>
+        <title time="3:39">Lithium</title>
+        <title time="2:57">Polly</title>
+        <title time="2:58">Territorial Pissings</title>
+        <title time="3:03">Drain You</title>
+        <title time="3:35">Lounge Act</title>
+        <title time="2:37">Stay Away</title>
+        <title time="3:49">On a Plain</title>
+        <title time="3:46">Something in the Way</title>
+        <sello>DGC Records</sello>
+        <año_public>24-09-1991</año_public>
+    </CD>
+    <CD>
+        <titulo>What's Going On</titulo>
+        <artista>Marvin Gaye</artista>
+        <title time="3:53">What's Going On</title>
+        <title time="3:59">What's Happening Brother</title>
+        <title time="2:58">Flyin' High (In the Friendly Sky)</title>
+        <title time="2:34">Save the Children</title>
+        <title time="3:17">God Is Love</title>
+        <title time="3:21">Mercy Mercy Me (The Ecology)</title>
+        <title time="4:51">Right On</title>
+        <title time="3:19">Wholy Holy</title>
+        <title time="4:30">Inner City Blues (Make Me Wanna Holler)</title>
+        <sello>Tamla Records</sello>
+        <año_public>21-05-1971</año_public>
+    </CD>
+    <CD>
+        <titulo>Goodies</titulo>
+        <artista>Ciara</artista>
+        <title time="3:44">Goodies</title>
+        <title time="3:55">1, 2 Step</title>
+        <title time="3:28">Thug Style</title>
+        <title time="4:26">Hotline</title>
+        <title time="4:00">Oh</title>
+        <title time="4:21">Pick Up the Phone</title>
+        <title time="4:12">Lookin' At You</title>
+        <title time="3:56">Ooh Baby</title>
+        <title time="4:37">Next to You</title>
+        <title time="3:44">And I</title>
+        <title time="3:57">Other Chicks</title>
+        <sello>LaFace Records</sello>
+        <año_public>28-09-2004</año_public>
+    </CD>
+    <CD>
+        <titulo>Black Moses</titulo>
+        <artista>Isaac Hayes</artista>
+        <title time="5:25">Never Can Say Goodbye</title>
+        <title time="7:55">(They Long to Be) Close to You</title>
+        <title time="4:06">Nothing Takes the Place of You</title>
+        <title time="4:53">Man's Temptation</title>
+        <title time="4:43">Never Gonna Give You Up</title>
+        <title time="9:35">Medley: Ike's Rap II / Help Me Love</title>
+        <title time="19:28">Symphony</title>
+        <title time="8:38">Ike's Rap III / Your Love Is So Doggone Good</title>
+        <sello>Stax Records</sello>
+        <año_public>01-11-1971</año_public>
+    </CD>
+</Lista_CDs>
+
+
+
+
+
+
+<!-- Crear un documento XML que almacene una lista de CD de música.
+     Cada CD deberá almacenar la siguiente información:   
+    • Título del álbum. 
+    • Artista.
+    • Títulos de las canciones con el tiempo por canción.
+    • Sello discográfico.
+    • Año de publicación.
+Al menos insertar 10 CDs.-->
