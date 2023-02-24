@@ -12,7 +12,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 <th>Fecha</th>
                 <th>Año_Public</th>
             </tr>
-            <xsl:for-each select="libreria/libro">
+            <xsl:for-each select="Lista_de_CD/CD">
             <tr>
                 <td><xsl:value-of select="artista"/></td>
                 <td><xsl:value-of select="titulo"/></td>
