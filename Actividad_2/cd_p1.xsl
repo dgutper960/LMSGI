@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
+<xsl:stylesheet version="1.0" 
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="/">
+
+  <xsl:template match="/">
     <html>
-      <body>
-        <h1>Lista de CDs</h1>
-            <table>
-            <tr bgcolor="#884488">
-                <th>Artista</th>
-                <th>Título</th>
-                <th>Fecha</th>
-                <th>Año_Public</th>
-            </tr>
-            <xsl:for-each select="Lista_de_CD/CD">
-            <tr>
-                <td><xsl:value-of select="artista"/></td>
-                <td><xsl:value-of select="titulo"/></td>
-                <td><xsl:value-of select="año_public"/></td>
-                <td><xsl:value-of select="sello"/></td>
-            </tr>
-            </xsl:for-each> 
+        <body>
+            <h2>Lista de Discos</h2>
+            <table border = "1">
+                <tr bgcolor="#a0a0ff">
+                    <th>Titulo</th>
+                    <th>Artista</th>
+                    <th>Sello</th>
+                    <th>Publicación</th>
+                </tr>
+                <xsl:for-each select="Lista_CDs/CD">
+                   <tr>
+                      <td><xsl:value-of select="titulo"/></td>
+                      <td><xsl:value-of select="artista"/></td>
+                      <td><xsl:value-of select="sello"/></td>
+                      <td><xsl:value-of select="año_public"/></td>
+                    </tr>
+                </xsl:for-each>
             </table>
-      </body>
+        </body>
     </html>
   </xsl:template>
-  </xsl:stylesheet>  
+</xsl:stylesheet>
+
 
 
 
